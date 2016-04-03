@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.andagain.secondpage"
+    android:background="@android:color/white">
+
+
+   <!-- <ImageView
+    android:id="@+id/image1"
+    android:layout_width="wrap_content"
+    android:layout_height="160dp"
+    android:src="@drawable/fstslide"
+    android:scaleType="fitXY"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentTop="true" />-->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/image1">
+
+        <TextView android:text="&#8226;Solving a differential equation involves finding y given the differential equation dy/dx\n&#8226;The Runge-Kutta method involves evaluating dy/dx at four points in the interval\n&#8226;This is used to get four estimates of &#x394;y\n &#8226;These are then averaged to get an overall estimate of &#x394;y" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/black" />
+    </ScrollView>
+
+
+</RelativeLayout>

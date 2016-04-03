@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Concipio</string>
+
+    <string name="welcome">Welcome to Concipio! What would you like help with?</string>
+    <string name="action_settings">Settings</string>
+    <string name="next_page">Next</string>
+    <string name="title_activity_secondpage">Runge-Kutta Method</string>
+    <string name="lorem_ipsum">Lorem ipsum</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_screen_slide_pager">ScreenSlidePagerActivity</string>
+
+    <string name="hello_world">&#8226;Solving a differential equation involves finding f(x) given the differential equation dy/dx\n</string>
+</resources>

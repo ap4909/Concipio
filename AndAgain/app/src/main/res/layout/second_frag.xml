@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.andagain.secondpage"
+    android:background="@android:color/white">
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/fstslide"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/image1"
+        android:id="@+id/scrollView">
+
+
+
+    <TextView android:text="&#8226;Example (above): Know gradient dy/dx of a function, y. Also know value of y at a: y(x=a).\n&#8226;Find value of y a small increment, &#x3B4;x, ahead of known point i.e. y(a+&#x3B4;x)." android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+    </ScrollView>
+
+</RelativeLayout>

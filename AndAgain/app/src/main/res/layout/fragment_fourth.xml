@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.andagain.secondpage"
+    android:background="@android:color/white">
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/thirdslide"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/image1"
+        android:id="@+id/scrollView">
+
+
+
+        <TextView android:text="&#8226;Evaluate dy/dx at the mid-point (x+o.5&#x394;x).\n&#8226;Use this to obtain another estimate for &#x394;y\n&#8226;This step is then repeated." android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:id="@+id/textView2"
+            android:layout_alignBottom="@+id/scrollView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/black" />
+    </ScrollView>
+
+</RelativeLayout>
